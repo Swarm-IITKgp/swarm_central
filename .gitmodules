@@ -1,0 +1,9 @@
+[submodule "swarm_simulator"]
+	path = swarm_simulator
+	url = https://github.com/Swarm-IITKgp/swarm_simulator.git
+[submodule "singleRobot"]
+	path = singleRobot
+	url = https://github.com/Swarm-IITKgp/singleRobot
+[submodule "coverage"]
+	path = coverage
+	url = https://github.com/Swarm-IITKgp/coverage.git
