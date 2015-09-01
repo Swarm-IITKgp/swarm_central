@@ -6,12 +6,14 @@ Dependencies: ROS, Gazebo
 1. Clone the repository using:
 ```git clone --recursive https://github.com/Swarm-IITKgp/swarm_central.git ```
 
-2. Run: [T is numbder of agents]
+2. Run (while in swarm_central directory): [T is number of agents]
 ```sh
-	sh swarm_simulator/scripts/generator.sh T
+	cd swarm_simulator
+	sh scripts/generator.sh T
 	roslaunch swarm_simulator swarm.launch
-	rosrun coverage voronoi_main T
-	sh singlrobot/scripts/generator.sh T
+	rosrun swarm_coverage voronoi_main T
+	cd ../singleRobot/
+	sh scripts/generator.sh T
 	roslaunch singlerobot singlerobot.launch
 ```
 	
